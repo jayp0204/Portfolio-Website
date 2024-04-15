@@ -66,7 +66,8 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU*/
+/* HAMBURGER MENU */
+
 #hamburger-nav {
   display: none;
 }
@@ -124,9 +125,11 @@ a:hover {
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
+
 .hamburger-icon.open span:nth-child(2) {
   opacity: 0;
 }
+
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
@@ -134,9 +137,11 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
 .hamburger-icon span:first-child {
   opacity: 1;
 }
+
 .hamburger-icon span:first-child {
   transform: none;
 }
@@ -173,7 +178,7 @@ section {
 
 .section__text {
   align-self: center;
-  text-align: cneter;
+  text-align: center;
 }
 
 .section__text p {
@@ -240,189 +245,188 @@ section {
   color: white;
 }
 
-.btn-color-1:hover{
-    background: rgb(0, 0, 0);
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
 }
 
-.btn-color-2{
-    background: none;
+.btn-color-2 {
+  background: none;
 }
 
-.btn-color-2:hover{
-    border: rgb(255, 255, 255) 0.1rem solid;
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container{
-    gap: 1rem;
+.btn-container {
+  gap: 1rem;
 }
 
-/* ABOUT */
+/* ABOUT SECTION */
 
-#about{
-    position: relative;
+#about {
+  position: relative;
 }
 
-.about-containers{
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
-.about-details-container{
-    justify-content: center;
-    flex-direction: column;
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
 }
 
-.about-containers, .about-details-container{
-    display: flex;
+.about-containers,
+.about-details-container {
+  display: flex;
 }
 
-.about-pic{
-    border-radius: 2rem;
+.about-pic {
+  border-radius: 2rem;
 }
 
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
 
-.details-container{
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
-.section-container{
-    gap: 4rem;
-    height: 80%;
+.section-container {
+  gap: 4rem;
+  height: 80%;
 }
 
-.section__pic-container{
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
 
-/* EXPERIENCE */
+/* EXPERIENCE SECTION */
 
-#experience{
-    position: relative;
+#experience {
+  position: relative;
 }
 
-.experience-sub-title{
-    color: rgb(85, 85, 85);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
 }
 
-.experience-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.article-container{
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
 }
 
-article{
-    display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
 }
 
-article .icon{
-    cursor: default;
+article .icon {
+  cursor: default;
 }
 
-/* PROJECTS */
+/* PROJECTS SECTION */
 
-#projects{
-    position: relative;
+#projects {
+  position: relative;
 }
 
-.color-container{
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
 }
 
-.project-img{
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
 }
 
-.project-title{
-    margin: 1rem;
-    color: black;
+.project-title {
+  margin: 1rem;
+  color: black;
 }
 
-.project-btn{
-    color: black;
-    border-color: rgb(163, 163, 163);
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
 }
-
 
 /* CONTACT */
 
-#contact{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-direction: column;
-    height: 70vh;
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
 }
 
-.contact-info-upper-container{
-    display: flex;
-    justify-content: center;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
-    margin: 2rem auto;
-    padding: 0.5rem;
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
 }
 
-.contact-info-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
 }
 
-.contact-info-container p{
-    font-size: larger;
+.contact-info-container p {
+  font-size: larger;
 }
 
-.contact-icon{
-    cursor: default;
+.contact-icon {
+  cursor: default;
 }
 
-.email-icon{
-    height: 2.5rem;
+.email-icon {
+  height: 2.5rem;
 }
 
-/* FOOTER */
+/* FOOTER SECTION */
 
-footer{
-    height: 26vh;
-    margin: 0 1rem;
+footer {
+  height: 26vh;
+  margin: 0 1rem;
 }
 
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
 }
